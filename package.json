@@ -1,0 +1,21 @@
+{
+  "name": "app_scheduler",
+  "version": "1.0.0",
+  "description": "schedule notification time",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/*.test.ts"
+  },
+  "author": "Lien Dinh",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "ts-node": "^8.5.4"
+  }
+}
